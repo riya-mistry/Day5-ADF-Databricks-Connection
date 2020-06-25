@@ -29,12 +29,12 @@
 						"type": "SecureString",
 						"value": "[parameters('AzureDatabricks_LinkedService_accessToken')]"
 					},
-					"newClusterNodeType": "Standard_NC12s_v3",
-					"newClusterNumOfWorker": "1",
+					"newClusterNodeType": "Standard_DS3_v2",
+					"newClusterNumOfWorker": "2",
 					"newClusterSparkEnvVars": {
 						"PYSPARK_PYTHON": "/databricks/python3/bin/python3"
 					},
-					"newClusterVersion": "5.5.x-gpu-scala2.11"
+					"newClusterVersion": "6.3.x-scala2.11"
 				}
 			},
 			"dependsOn": []
